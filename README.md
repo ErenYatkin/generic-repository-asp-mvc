@@ -18,5 +18,6 @@ A project base that built on top of MVC architecture
    - Status Types: are used for defining a status of an entity.
    - Parameter Types: are used for defining system parameter to use globally on the projects.
    - Results: is used for defining a return objects at once as a method output.
+   ----------------------------------------------------------------------------------------------------------------------------------------
     
 Installation and Usage will be added soon!
