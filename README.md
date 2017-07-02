@@ -34,5 +34,10 @@ Core.Entity basically defines base of entities. Methods, Results and EF Code Fir
  - UserRoles: is a pre defined many-to-many entity and lets you assign Roles to Users.
  - RolePermission: is a pre defined many-to-many entity and lets you create boundries for your SystemRoles with using SystemControllerAction.
 ------------------------------------------------------------------------------------------------------------------------------------------
+# Core. Common
+Core.Common basically stores Global Variables and Global Methods that are used in the entire framework. Such as Root Folder, User Session Name etc.
 
+ - Global Variables: Has ConnectionStringName for EF Code First, AppStartupPath to get path of the application, RootFolder to get root folder and UserSession to define a session in Controllers.
+ - GlobalMethods: Has GetDBContext for creating instace of a BaseDbContext in runtime. It finds the model of the given entity and creates a instace of that model. With this method you can define more than one model for your project and use the framework as a base operator.
+----------------------------------------------------------------------------------------------------------------------------------------
 Installation and Usage will be added soon!
